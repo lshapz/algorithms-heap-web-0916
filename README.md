@@ -1,7 +1,7 @@
 ---
 tags: algorithms
 languages: ruby
-resources: 1
+resources: 2
 ---
 # Algorithms Heap
 
