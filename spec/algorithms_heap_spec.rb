@@ -5,20 +5,23 @@ describe 'MinHeap' do
     expect(min_heap.data).to eq([])
   end
 
-  it "keeps track of values pushed into the heap in the @data array" do
-    min_heap.push(2)
-    expect(min_heap.data).to include(2)
+  describe "#push" do
+    it "keeps track of values pushed into the heap in the @data array" do
+      min_heap.push(2)
+      expect(min_heap.data).to include(2)
+    end
+
+    it "keeps track of its minimum value as @root" do
+      min_heap.push(5)
+
+      expect(min_heap.root).to eq(5)
+
+      min_heap.push(2)
+
+      expect(min_heap.root).to eq(2)
+    end
   end
 
-  it "keeps track of its minimum value as @root" do
-    min_heap.push(5)
-
-    expect(min_heap.root).to eq(5)
-
-    min_heap.push(2)
-
-    expect(min_heap.root).to eq(2)
-  end
 
   describe "#pop" do
     it "removes and returns the last element from @data" do
