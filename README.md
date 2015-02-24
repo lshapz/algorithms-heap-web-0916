@@ -12,13 +12,15 @@ A [heap](http://en.wikipedia.org/wiki/Heap_%28data_structure%29) is a data struc
 Heaps make it easy to access the highest or lowest value element in a set of data (always keeping it at the "top" of the heap). A **max heap** always keeps the maximum element at the root node (the topmost node), and a **min heap** always keeps the minimum element at the root.
 
 An example of a max heap:
-![Max Heap](http://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Binary_tree.svg)
+![Max Heap](http://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Max-Heap.svg/1200px-Max-Heap.svg.png)
+
 
 ## Instructions
 
 For this lab, you will implement a MinHeap class that stores data and always keeps track of its minimum element as its root.
 
 Run rspec --fail-fast and make the tests pass one at a time.
+
 
 ## Resources
 
