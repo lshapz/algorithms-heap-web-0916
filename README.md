@@ -23,4 +23,4 @@ Run rspec --fail-fast and make the tests pass one at a time.
 - [Wikipedia - Heap](http://en.wikipedia.org/wiki/Heap_%28data_structure%29)
 - [Wikipedia - Tree](http://en.wikipedia.org/wiki/Tree_%28data_structure%29)
 
-<a href='https://learn.co/lessons/algorithms-heap' data-visibility='hidden'>View this lesson on Learn.co</a>
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/algorithms-heap' title='Algorithms Heap'>Algorithms Heap</a> on Learn.co and start learning to code for free.</p>
